@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pujan Thaker - Personal Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .top-half {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .top-container {
+            display: flex;
+            width: 100%;
+        }
+        .left-column {
+            flex: 1;
+            padding-right: 20px;
+        }
+        .right-column {
+            flex: 0 0 40%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        .logo-nav {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .logo {
+            width: 63px;
+            height: 68px;
+            margin-right: 20px;
+        }
+        nav {
+            display: flex;
+            gap: 15px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+        }
+        .content {
+            max-width: 600px;
+        }
+        .headshot {
+            max-width: 100%;
+            height: auto;
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+        .image-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .bottom-half {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+        .bottom-container {
+            flex: 1;
+            padding: 0 20px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" role="main">
+        <div class="top-half">
+            <div class="top-container">
+                <div class="left-column">
+                    <div class="logo-nav">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MyIgaGVpZ2h0PSI2OCIgdmlld2JveD0iMCAwIDYzIDY4IiBmaWxsPSJub25lIj4KICAgICAgICAgICAgICAgICAgICA8cmVjdCB3aWR0aD0iMzUuNzgzOSIgaGVpZ2h0PSIzNi43MDE1IiB0cmFuc2Zvcm09Im1hdHJpeCgwLjg2OTE0MSAwLjQ5NDU2NSAtMC44NjkxNDEgMC40OTQ1NjUgMzEuODk4NyAwKSIgZmlsbD0idXJsKCNwYWludDBfbGluZWFyXzMxXzQ3KSI+PC9yZWN0PgogICAgICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSIzNS43ODM5IiBoZWlnaHQ9IjMyLjE0MjYiIHRyYW5zZm9ybT0ibWF0cml4KDAuODY5MTQxIDAuNDk0NTY1IDAgMSAwIDE4LjE1OTkpIiBmaWxsPSJ1cmwoI3BhaW50MV9saW5lYXJfMzFfNDcpIj48L3JlY3Q+CiAgICAgICAgICAgICAgICAgICAgPHJlY3Qgd2lkdGg9IjM2LjcwMTUiIGhlaWdodD0iMzIuMTM2OSIgdHJhbnNmb3JtPSJtYXRyaXgoMC44NjkxNDEgLTAuNDk0NTY1IDAgMSAzMS4xMDEzIDM1Ljg2MzEpIiBmaWxsPSJ1cmwoI3BhaW50Ml9saW5lYXJfMzFfNDcpIj48L3JlY3Q+CiAgICAgICAgICAgICAgICAgICAgPGRlZnM+CiAgICAgICAgICAgICAgICAgICAgICA8bGluZWFyZ3JhZGllbnQgaWQ9InBhaW50MF9saW5lYXJfMzFfNDciIHgxPSIzNS43NyIgeTE9IjM2LjcxMDYiIHgyPSItMi43MjM5NiIgeTI9IjMuMTAyMiIgZ3JhZGllbnR1bml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjRDVEQUZGIj48L3N0b3A+CiAgICAgICAgICAgICAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI0JERUJGRCI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJncmFkaWVudD4KICAgICAgICAgICAgICAgICAgICAgIDxsaW5lYXJncmFkaWVudCBpZD0icGFpbnQxX2xpbmVhcl8zMV80NyIgeDE9IjAiIHkxPSIwIiB4Mj0iNDAuMjk1IiB5Mj0iNy4zMjQwNiIgZ3JhZGllbnR1bml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjOTNGQ0UxIj48L3N0b3A+CiAgICAgICAgICAgICAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzkzREVGQyI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJncmFkaWVudD4KICAgICAgICAgICAgICAgICAgICAgIDxsaW5lYXJncmFkaWVudCBpZD0icGFpbnQyX2xpbmVhcl8zMV80NyIgeDE9Ii0xLjEyNDE5ZS0wNSIgeTE9Ii0wLjAyOTQyMDgiIHgyPSIzMS4xNjUzIiB5Mj0iLTQuNjk4NyIgZ3JhZGllbnR1bml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjNDQ3OUQ3Ij48L3N0b3A+CiAgICAgICAgICAgICAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzY1QkVFMSI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJncmFkaWVudD4KICAgICAgICAgICAgICAgICAgICA8L2RlZnM+CiAgICAgICAgICAgICAgICAgIDwvc3ZnPg==" alt="Logo" class="logo">
+                        <nav>
+                            <a href="#">About</a>
+                            <a href="#">Work</a>
+                            <a href="https://www.instagram.com" aria-label="Instagram">Instagram</a>
+                            <a href="https://www.linkedin.com/in/pthaker1/" aria-label="LinkedIn">LinkedIn</a>
+                        </nav>
+                    </div>
+                    <div class="content">
+                        <h1>Hi there! I'm Pujan.</h1>
+                        <h2>An aspiring product designer based in NYC.</h2>
+                        <p>I have a bachelors degree in Mechanical Engineering from Embry-Riddle Aeronautical University (Go Eagles! <img src="ERAU .png" alt="ERAU" height="40" width="40">) and have experience working in the Additive Manufacturing and Automotive spaces. I am passionate about designing user-centered interfaces that are accessible to all!</p>
+                        <p>I am currently a masters student at Pratt Institute</p>
+                        <p>Have an opportunity for me? Let's chat!</p>
+                    </div>
+                </div>
+                <div class="right-column">
+                    <img src="PT_Headshot.JPG" alt="Pujan Thaker" class="headshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="image-grid">
+            <div class="image-item">
+                <img src="Gulfstream.webp" alt="Gulfstream Aerospace Internship">
+                <p>Gulfstream Aerospace Internship</p>
+            </div>
+            <div class="image-item">
+                <img src="NYPL.png" alt="NYPL Site Redesign">
+                <p>NYPL Site Redesign</p>
+            </div>
+            <div class="image-item">
+                <img src="Cooper_Union.png" alt="Cooper Union Library Usability Testing & Redesign">
+                <p>Cooper Union Library Usability Testing & Redesign</p>
+            </div>
+            <div class="image-item">
+                <img src="Stanleyselect.png" alt="STANLEY Select">
+                <p>STANLEY Select</p>
+            </div>
+        </div>
+
+        <div class="bottom-half">
+            <div class="bottom-container">
+                <h2>Work Experience</h2>
+                <ul>
+                    <li>UX Design Intern</li>
+                    <li>Additive Manufacturing</li>
+                    <li>Business Analyst</li>
+                    <li>Manufacturing Engineering Intern</li>
+                </ul>
+            </div>
+            <div class="bottom-container">
+                <h2>Education</h2>
+                <ul>
+                    <li>B.S. Mechanical Engineering - Embry-Riddle Aeronautical University</li>
+                    <li>M.S. Information Experience Design - Pratt Institute</li>
+                </ul>
+            </div>
+            <div class="bottom-container">
+                <h2>Hobbies</h2>
+                <ul>
+                    <li>Travel</li>
+                    <li>Photography</li>
+                    <li>3D Printing</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>made with ♥ at Pratt</p>
+    </footer>
+</body>
+</html>
